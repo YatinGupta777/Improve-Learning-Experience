@@ -23,6 +23,6 @@ review = review.lower()
 review = review.split()
 review = [word for word in review if not word in set(stopwords.words('english'))]
 '''making it a string from the list'''
-review = ' '.join(review + "/n")
+#review = ' '.join(review)
 
 y = len(review)
